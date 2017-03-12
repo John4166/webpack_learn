@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title%></title>
+    <!--<script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>-->
+</head>
+<body>
+<p>webpack 的html文件生成插件</p>
+
+<p><%= htmlWebpackPlugin.options.date %></p>
+<!--<P><% for(var key in htmlWebpackPlugin.files){ %>-->
+        <!--<%= key %>: <%= JSON.stringify(htmlWebpackPlugin.files[key]) %>-->
+    <!--<% } %>-->
+<!--</P>-->
+
+<!--<P><% for(var key in htmlWebpackPlugin.options){%>-->
+    <!--<%= key %>: <%= JSON.stringify(htmlWebpackPlugin.options[key]) %>-->
+    <!--<% } %>-->
+<!--</P>-->
+
+</body>
+</html>

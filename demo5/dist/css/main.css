@@ -1,0 +1,14 @@
+.flex-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #006600;
+}
+ul, li{
+    list-style: none;
+    border: 1px solid #000000;
+}

@@ -1,0 +1,15 @@
+
+$gray: #bababa;
+.layer{
+  width:600px;
+  height: 200px;
+  background-color: $gray;
+  >div{
+    width: 400px;
+    height:100px;
+    //background:url('/study/webpack2/demo7/src/asset/test.jpg');
+  }
+}
+.flex-box{
+  display: flex;
+}

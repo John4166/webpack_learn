@@ -1,0 +1,12 @@
+.layer {
+  width: 600px;
+  height: 200px;
+  background-color: #bababa; }
+  .layer > div {
+    width: 400px;
+    height: 100px; }
+
+.flex-box {
+  display: flex; }
+
+/*# sourceMappingURL=layer.css.map */
